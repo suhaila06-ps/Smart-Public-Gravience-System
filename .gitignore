@@ -1,0 +1,43 @@
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+dist/
+build/
+.npm/
+
+# IDE and editor
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Database files (local development)
+*.sqlite3
+*.db
+
+# Generated ML model files (review before committing)
+# models/*.pkl
+# models/*.joblib
